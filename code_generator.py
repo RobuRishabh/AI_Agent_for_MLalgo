@@ -37,7 +37,7 @@ def generate_code(task_type, model_type, feature_columns, target_column):
     """
 
     payload = {
-        "model": "llama2:13b",
+        "model": "qwen2.5-coder:3b",
         "prompt": prompt,
         "stream": False
     }
